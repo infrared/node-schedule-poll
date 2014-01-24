@@ -2,12 +2,12 @@
     "author": "Michael Kroher",
     "name":  "schedule-poll",
     "description": "Evenly schedule recurring events with various intervals",
-    "version": "0.1",
+    "version": "0.0.1",
     "repository": {
         "type": "git",
         "url": "git://github.com/infrared/node-schedule-poll.git"
     },
-    "main": "./lib/index"
+    "main": "./lib/index",
     "engines": {
         "node": "*"
     },
