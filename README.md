@@ -1,3 +1,7 @@
+Installation:
+    npm install schedule-poll
+
+Example Usage:
 
     var Poll = require('schedule-poll');
     
@@ -19,3 +23,13 @@
         "e": 6,
         "f": 6
     });
+
+
+    $ node test.js
+    [ 'b', 'f' ]
+    [ 'a' ]
+    [ 'c', 'e' ]
+    [ 'b' ]
+    [ 'a', 'd' ]
+    [ 'c' ]
+    .. etc
